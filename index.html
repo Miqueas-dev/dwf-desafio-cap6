@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./index.css">
+   <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <script async src="./index.js"></script>
+</head>
+<body>
+   <header class="header">
+      <div class="header-content">
+         <form class="search-form">
+            <input type="text" class="input-search" name="buscar" placeholder="Buscar Producto ..">
+            <button class="boton">Buscar</button>
+         </form>
+      </div>
+   </header>
+   <div class="content">
+      <p class="results-p">
+         Resultados: 
+         <span class="cant-results"></span>
+      </p>
+
+      <div class="results">
+      </div>
+   </div>
+   <template id="result-item-template">
+      <div class="item-results">
+         <img src="https://supermariorun.com/assets/img/stage/mario03.png" alt="" class="results-item-img">
+         <div class="results-item-content">
+            <h4 class="results-item-title">titulo</h4>
+            <p class="results-item-estado">titulo</p>
+            <p class="results-item-ventas">
+               Vendidos: <span class="results-item-ventas-nume"></span>
+      
+            </p>
+         </div>
+         <div class="results-item-price">
+            $1111
+         </div>
+      </div>
+   </template>
+</body>
+</html>
+
+
+
